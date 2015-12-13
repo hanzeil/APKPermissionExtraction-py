@@ -89,7 +89,6 @@ class PermissionExtraction:
                 f2.write(str(col) + ' ')
             f2.write('\n')
         f2.close()
-
-
-p = PermissionExtraction()
-p.start()
+if __name__ == '__main__':
+    p = PermissionExtraction()
+    p.start()
